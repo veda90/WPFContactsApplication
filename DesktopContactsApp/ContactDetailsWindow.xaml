@@ -8,8 +8,11 @@
         Title="ContactDetailsWindow" Height="350" Width="450">
     <Grid>
         <StackPanel Margin="10">
+            <TextBlock Text="Name"/>
             <TextBox x:Name="nameTextBox" Margin="0 0 0 10"></TextBox>
+            <TextBlock Text="Email"/>
             <TextBox x:Name="emailTextBox" Margin="0 0 0 10"></TextBox>
+            <TextBlock Text="Phone"/>
             <TextBox x:Name="phoneTextBox" Margin="0 0 0 10"></TextBox>
             <Button Click="UpdateButton_Click" Content="Update"
                     Margin="0 0 0 10"></Button>

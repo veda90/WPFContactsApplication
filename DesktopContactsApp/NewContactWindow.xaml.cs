@@ -22,6 +22,10 @@ namespace DesktopContactsApp
         public NewContactWindow()
         {
             InitializeComponent();
+
+            //Position this window at the center of parent
+            Owner = Application.Current.MainWindow;
+            WindowStartupLocation = WindowStartupLocation.CenterOwner;
         }
         private void AddNewContact(object sender, RoutedEventArgs e)
         {
