@@ -40,6 +40,7 @@ namespace DesktopContactsApp
             ReadDatabase();
         }
 
+        /*Method to fetch contact information from database*/
         void ReadDatabase()
         {
             
